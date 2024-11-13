@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioTeams</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script> <!-- Vinculamos el JavaScript -->
+</head>
+<body>
+    <div class="sesion">
+        <h1>Inicio de Sesión</h1>
+        <form method="post" onsubmit="return iniciarSesion()">
+            <div class="usuario">
+                <input type="text" id="usuario" required>
+                <label>Usuario</label>
+            </div>
+            <div class="contraseña">
+                <input type="password" id="contraseña" required>
+                <label>Contraseña</label>
+            </div>
+            <div class="recordar">¿Olvidó su contraseña?</div>
+            <input class="Iniciar" type="submit" value="Iniciar">
+            <div class="Registrarse">
+                ¿No tienes cuenta? <a href="#">Realiza tu registro</a>
+            </div>
+        </form>
+        <p id="error-msg" style="color: red; text-align: center;"></p>
+    </div>
+</body>
+</html>

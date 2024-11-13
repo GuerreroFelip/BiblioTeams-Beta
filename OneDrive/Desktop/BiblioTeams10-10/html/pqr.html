@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PQRS - BiblioTeams</title>
+    <link rel="stylesheet" href="css/pqrs.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>PQR´S</h1>
+    </header>
+    <main class="contenedor">
+    <div>
+        <h1>PQRS</h1>
+        <div class="nombre">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input name="lnombre" id="idnombre" required>   
+        </div>
+        <div class="telefono">
+            <label for="telefono">Telefono:</label>
+            <input name="ltelefono" id="idtelefono" required number>
+        </div>
+        <div class="correo">
+            <label for="correo">Correo:</label>
+            <input name="lcorreo" id="idcorreo" required>
+            </div>
+        <form class="tipo" method="post">
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" required>
+                <option value="pregunta">Pregunta</option>
+                <option value="queja">Queja</option>
+                <option value="reclamo">Reclamo</option>
+                <option value="sugerencia">Sugerencia</option>
+            </select>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea name="ldescripcion" id="iddescripcion" rows="4"> </textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</main>
+</body>
+</html>

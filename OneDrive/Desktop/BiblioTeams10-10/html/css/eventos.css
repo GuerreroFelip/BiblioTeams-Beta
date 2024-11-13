@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(100deg,#f1c40f, #fff59d)
+     
+}
+
+
+.encabezado {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 31px;
+}
+.foto1 img{
+    max-width: 100%;
+    width: 50%;
+}

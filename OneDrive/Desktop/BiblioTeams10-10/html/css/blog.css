@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(100deg,#f1c40f, #fff59d );
+    color: #333;
+}
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+.posts-container, #todo-container {
+    margin: 20px 0;
+}
+.post, .todo {
+    background: #a59f9f;
+    color:black;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin: 10px 0;
+}
+.post h2, .todo h2 {
+    margin-bottom: 10px;
+}
+.post p, .todo p {
+    margin: 0;
+}

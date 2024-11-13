@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(100deg,#f1c40f, #fff59d );
+    height: 100vh;
+}
+
+.sesion {
+    border: 2px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 400px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.sesion h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.sesion form{
+    padding:  0 40px;
+    box-sizing: border-box;
+}
+form .usuario {
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+.usuario input{
+    width: 100%;
+    padding:  0 5px;
+    height: 40px;
+    font-size: 16 px ;
+    border: none;
+    background: none;
+    outline: none;
+}
+.usuario label {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    color: black;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+form .contraseña {
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+.contraseña input{
+    width: 100%;
+    padding:  0 5px;
+    height: 40px;
+    font-size: 16 px ;
+    border: none;
+    background: none;
+    outline: none;
+    
+}
+.contraseña label {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    color: black;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+form .recordar{
+    color: black;
+    margin:  50px 0px;
+    height: 0px;
+    width: 100%;
+    font-size: 16px;
+}
+form .Iniciar{
+    margin: 0px 0px;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+    border: 1px solid black;
+    background-color: #2980b9;
+    border-radius: 30px;    
+    
+}
+form .Registrarse {
+    margin: 30px 0px;
+    width: 100%;
+    height: 0px;
+    color: black
+}
+
+.Registrarse a {
+    color: black;
+    font-size: 16.5px;
+}
+
+.Iniciar:hover {
+    background-color: #5cace2;
+}
